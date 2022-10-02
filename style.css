@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+body, html {
+    height: 100%;
+  }
+.bg {
+    background-color: #a1db00; ;
+    /* The image used */
+    background-image: url("./output-onlinegiftools\ \(2\).gif");
+  
+    /* Full height */
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.textstyle .headtext{
+   font-size:  30px;
+   font-weight: 500;
+   font-family: 'Kalam', cursive;
+   text-align: center;
+   font-weight: 600;
+   color: black;
+   padding-left: 50vh;
+   padding-right: 50vh;
+}
+#output{
+   
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow:scroll;
+    border: 1px solid var(--black);
+    color: black;
+    border-radius: 12px;
+    max-width: 100vh;
+    align-self: center;
+    padding-left: 200px;
+    display: inline-block;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+    text-align: left;
+     background-color: white;
+   
+}
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+:root {
+   
+    --black: #333333;
+    --width-break:600px
+}
+
+body {
+    margin: 0;
+    font-family: 'Kalam', cursive;
+    color: #333333;
+}
+
+nav {
+    background-color: #a1db00;
+    background-image: url("https://www.transparenttextures.com/patterns/sandpaper.png");
+    text-align: center;
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+}
+
+textarea {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    min-height: 10vh;
+    max-width: 100vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+    text-align: left;
+     border-radius: 12px;
+   
+     
+}
+
+.button {
+        border: none;
+        background-color: #a1db00;
+        background-image: url("https://www.transparenttextures.com/patterns/sandpaper.png");
+        color: black;
+        padding: 8px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;    
+    font-family: 'Kalam', cursive;
+    font-size: large;
+    border-radius: 12px;
+    border: 1px solid black;
+}
+
+/** footers **/
+
+footer {
+   
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        padding: 1rem;
+        background-color: var(--primary);
+        text-align: center;
+        padding-top: 50px;
+}
+
+footer p {
+    background-color: #a1db00;
+    background-image: url("https://www.transparenttextures.com/patterns/sandpaper.png");
+    max-width: var(--width-break);
+    margin: auto;
+}
+
+.footer .link {
+
+    color: black
+}
+
+.footer .footer-header {
+
+    background-color: #a1db00;
+    background-image: url("https://www.transparenttextures.com/patterns/sandpaper.png");
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul {
+    background-color: #a1db00;
+    background-image: url("https://www.transparenttextures.com/patterns/sandpaper.png");
+    padding-inline-start: 0px;
+}
+.list-item-inline {
+    background-color: #a1db00;
+    background-image: url("https://www.transparenttextures.com/patterns/sandpaper.png");
+    display: inline;
+    padding: 0rem 0.5rem;
+}
